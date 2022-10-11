@@ -13,6 +13,17 @@ document.getElementById("mealInput").addEventListener("keyup", function(event) {
       return response.json();
     }).then(function(json) {
       console.log(json);
+      const everything = document.createElement("ul");
+      for (let i = 0; i < json.length; i++) {
+        const value = json[i].strMeal;
+        const item = document.createElement("li");
+        item.appendChild(document.createTextNode(value));
+        everything.appendChild(item);
+      };
+                
+      const txtHint = document.getElementById("txtHint");
+      txtHint.textContent = "";
+      txtHint.appendChild(everything);
     });
 });
 
