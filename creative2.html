@@ -11,16 +11,34 @@
     <h1>Creative Lab 2: Recipes</h1>
     
   <form>
-    <label>Enter a dish name:</label>
-    <input id="mealInput" type="text"></input><br/>
-    Suggestion: <span id="txtHint">Empty</span>
-    <input id="mealSubmit" type="submit" value="Submit"></input>
+    <div id="search">
+      <label>Enter a dish name:</label>
+      <input id="mealInput" type="text"></input><br/>
+      Suggestion: <span id="txtHint">Empty</span>
+      <input id="mealSubmit" type="submit" value="Submit"></input>
+    </div>
   </form>
-  <div id="ingredientResults">
-  </div>
-  <div id="measurementResults">
-	</div>
-	<div id="instructionResults">
+  
+  <div id="page">
+  
+    <div id="allRecipe">
+      <div id="allIngredients">
+        <div class="header">
+          <h2>Ingredients</h2>
+        </div>
+        <div id="anotherdiv">
+          <div id="ingredientResults">
+          </div>
+          <div id="measurementResults">
+        	</div>
+      	</div>
+    	</div>
+    	<div id="allInstructions">
+    	  <h2>Instructions</h2>
+      	<div id="instructionResults">
+      	</div>
+    	</div>
+  	</div>
 	</div>
 	
 	<div id=footer>

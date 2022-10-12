@@ -1,7 +1,80 @@
 h1 {
     font-family: Geneva;
+    text-align: center;
+    background-color: #49796b;
+    color: white;
+    padding: 20px;
+}
+
+#page {
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/womens-aprons-2019-1572622179.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    opacity: 0.3;
 }
 
 body {
-    font-family: Georgia;
+    font-family: Geneva;
+}
+
+#allIngredients {
+    display: flex;
+    flex-direction: column;
+    font-family: bradley hand;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #49796b;
+    border-radius: 4px;
+    margin: 5%;
+    width: 20%;
+}
+
+#anotherdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+#ingredientResults {
+    padding-right: 20px;
+}
+
+#allInstructions {
+    padding: 5%;
+    line-height: 30px;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #49796b;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    font-family: bradley hand;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+#allInstructions > h2 {
+    font-family: Geneva;
+}
+
+.header {
+    font-family: Geneva;
+}
+
+#allRecipe {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer {
+    text-align: center;
+    background-color: #49796b;
+    color: white;
+    padding: 20px;
 }
