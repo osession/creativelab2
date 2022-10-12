@@ -6,6 +6,10 @@ h1 {
     padding: 20px;
 }
 
+form {
+    padding-bottom: 15px;
+}
+
 #page {
     background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/womens-aprons-2019-1572622179.jpg");
     height: 100%;
@@ -61,10 +65,12 @@ body {
 
 #allInstructions > h2 {
     font-family: Geneva;
+    text-align: center;
 }
 
 .header {
     font-family: Geneva;
+    text-align: center;
 }
 
 #allRecipe {
@@ -77,4 +83,11 @@ body {
     background-color: #49796b;
     color: white;
     padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #allRecipe {
+    display: flex;
+    flex-direction: column;
+  }
 }
